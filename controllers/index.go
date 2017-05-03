@@ -10,7 +10,7 @@ type CommonResponse struct {
 }
 
 func IndexController(w http.ResponseWriter, r *http.Request) {
-	t, err := template.ParseFiles("view/index.html", "view/body.temp", "view/head.temp")
+	t, err := template.ParseFiles("view/index.html", "view/temp/body.temp", "view/temp/head.temp")
 	if err != nil {
 		panic(err)
 	}

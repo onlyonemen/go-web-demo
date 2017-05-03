@@ -1,0 +1,6 @@
+{{define "BodyTemp"}}
+
+    <h1>{{.Msg}}</h1>
+    <a href="/form">form</a>
+
+{{end}}
